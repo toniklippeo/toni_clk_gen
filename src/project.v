@@ -24,4 +24,8 @@ module tt_um_toniklippeo (
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
+  wire clk_div1;
+  wire clk_div2;
+  assign clk_div1=1'b1;
+  assign clk_div2=1'b0;
 endmodule
