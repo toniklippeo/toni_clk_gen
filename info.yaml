@@ -32,8 +32,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "clk_div1"
+  uo[1]: "clk_div2"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
