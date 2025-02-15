@@ -26,6 +26,6 @@ module tt_um_toniklippeo (
 
   wire clk_div1;
   wire clk_div2;
-  assign clk_div1=1'b1;
-  assign clk_div2=1'b0;
+  assign clk_div1=ui_in[0];
+    assign clk_div2=ui_in[1];
 endmodule
